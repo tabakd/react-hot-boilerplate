@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 
 export default class App extends Component {
   render() {
+    const styles = require('./App.scss');
     return (
-      <h1>Hello, world.</h1>
+      <div className={styles.App}>
+        Hello, world.
+      </div>
     );
   }
 }
